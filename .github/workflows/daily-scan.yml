@@ -1,0 +1,32 @@
+name: Daily Card Scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run daily card scan
+        env:
+          EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
+          EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
+        run: python3 run_live.py
+
+      - name: Commit updated report
+        run: |
+          git config user.name "Card Finder Bot"
+          git config user.email "actions@github.com"
+          git add daily_report.html
+          git diff --quiet && git diff --staged --quiet || git commit -m "Daily scan: $(date -u +'%Y-%m-%d')"
+          git push
