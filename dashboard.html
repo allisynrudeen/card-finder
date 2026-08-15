@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card Flip Dashboard</title>
+<style>
+  :root { color-scheme: light; }
+  .viz-root {
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-blue:    #2a78d6;
+    --status-good:    #0ca30c;
+    --status-warning: #fab219;
+    --success-text:   #006300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-blue:    #3987e5;
+      --status-good:    #0ca30c;
+      --status-warning: #fab219;
+      --success-text:   #0ca30c;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page-plane:     #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-blue:    #3987e5;
+    --status-good:    #0ca30c;
+    --status-warning: #fab219;
+    --success-text:   #0ca30c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+  .viz-root { background: var(--page-plane); color: var(--text-primary); min-height: 100vh; padding: 32px 20px 60px; }
+  .wrap { max-width: 960px; margin: 0 auto; }
+  .topbar { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+  h1 { font-size: 22px; margin: 0 0 4px; font-weight: 650; }
+  .subtitle { color: var(--text-secondary); font-size: 13px; }
+  .banner { display: flex; align-items: center; gap: 10px; background: var(--surface-1); border: 1px solid var(--border); border-left: 3px solid var(--status-good); border-radius: 10px; padding: 12px 16px; margin-bottom: 24px; font-size: 13px; color: var(--text-secondary); }
+  .banner strong { color: var(--text-primary); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--status-good); flex-shrink: 0; }
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 28px; }
+  @media (max-width: 720px) { .tiles { grid-template-columns: repeat(2, 1fr); } }
+  .tile { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+  .tile .label { font-size: 12px; color: var(--text-secondary); margin-bottom: 8px; }
+  .tile .value { font-size: 28px; font-weight: 650; line-height: 1; }
+  .tile .value.good { color: var(--success-text); }
+  .section-title { font-size: 14px; font-weight: 650; margin: 0 0 12px; display: flex; align-items: center; justify-content: space-between; }
+  .section-title .meta { font-size: 12px; font-weight: 400; color: var(--text-muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  thead th { text-align: left; padding: 12px 14px; font-size: 11px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); border-bottom: 1px solid var(--gridline); font-weight: 650; }
+  tbody td { padding: 13px 14px; border-bottom: 1px solid var(--gridline); color: var(--text-primary); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.num, th.num { font-variant-numeric: tabular-nums; text-align: right; }
+  td.profit { color: var(--success-text); font-weight: 650; }
+  a.card-link { color: var(--series-blue); text-decoration: none; }
+  a.card-link:hover { text-decoration: underline; }
+  .margin-pill { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; background: color-mix(in srgb, var(--status-good) 15%, transparent); color: var(--success-text); }
+  .flag { color: #b45309; font-size: 12px; font-weight: 600; margin-top: 3px; }
+  footer { margin-top: 32px; font-size: 12px; color: var(--text-muted); line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <h1>Card Flip Dashboard</h1>
+        <div class="subtitle">Saturday, August 15, 2026 · Live eBay data</div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <span class="dot"></span>
+      <span><strong>Live scan complete.</strong> Scanned 67 listings across your comps.csv, rejected 35 as likely mismatches before scoring.</span>
+    </div>
+
+    <div class="tiles" id="tiles"></div>
+
+    <div class="section-title">
+      Today's deals <span style="font-weight:400;color:var(--text-muted);">— ranked by resale potential</span> <span class="meta" id="deal-meta"></span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Card</th>
+          <th class="num">Buy price</th>
+          <th class="num">Est. resale</th>
+          <th class="num">Net profit</th>
+          <th class="num">Margin</th>
+          <th class="num">Interest</th>
+        </tr>
+      </thead>
+      <tbody id="deals-body"></tbody>
+    </table>
+
+    <footer>Net profit already accounts for eBay final value fees (~13.6% + per-order fee) and estimated resale shipping. Listings are matched against your comps.csv by player name and grade before scoring. Anything marked "Verify manually" has an unusually high margin — always click through and confirm it's genuinely the right card before buying.</footer>
+  </div>
+</div>
+
+<script>
+  const deals = [{"title": "2018-19 Panini Prizm #280 Luka Doncic PSA 9 ROOKIE RC", "url": "https://www.ebay.com/itm/178397489561?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item298951a999:g:fdgAAeSwJtNqe470", "buy": 83.0, "resale": 210.0, "profit": 92.54, "margin": 111.5, "daysListed": 3, "watchCount": null, "flagged": false}, {"title": "Panini 2018-19 Prizm Luka Doncic #280 Base Set Rookie RC PSA 9 MINT Mavericks", "url": "https://www.ebay.com/itm/227472657786?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item34f66d4d7a:g:rqYAAeSwSOpqfD0m", "buy": 95.98, "resale": 210.0, "profit": 79.56, "margin": 82.9, "daysListed": 3, "watchCount": null, "flagged": false}, {"title": "2018-19 Panini Prizm Luka Doncic #280 PSA 9 MINT Rookie RC v9t", "url": "https://www.ebay.com/itm/257680906480?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item3bfefa98f0:g:hL4AAeSwhP1qf6xB", "buy": 114.38, "resale": 210.0, "profit": 61.16, "margin": 53.5, "daysListed": 0, "watchCount": null, "flagged": false}, {"title": "Panini Mosaic 2020 Justin Herbert RC Camo Pink Prizm NFL Debut #263 PSA 10", "url": "https://www.ebay.com/itm/800508214781?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=itemba6201fdfd:g:9JQAAeSwMyRqf1Cc", "buy": 60.0, "resale": 115.0, "profit": 33.46, "margin": 55.8, "daysListed": 1, "watchCount": null, "flagged": false}, {"title": "2020 Panini Prizm - Rookie Justin Herbert PSA 10 #325 (RC)", "url": "https://www.ebay.com/itm/398289167729?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item5cbbe26571:g:mOgAAeSwpAlqgIn6", "buy": 65.0, "resale": 115.0, "profit": 28.46, "margin": 43.8, "daysListed": 0, "watchCount": null, "flagged": false}, {"title": "2020 Panini Prizm Rookie Justin Herbert #325 (RC) PSA 10", "url": "https://www.ebay.com/itm/398286338118?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item5cbbb73846:g:ryMAAeSwT0pqf5Ha", "buy": 70.0, "resale": 115.0, "profit": 23.46, "margin": 33.5, "daysListed": 0, "watchCount": null, "flagged": false}];
+  const listingsScanned = 67;
+  const rejectedCount = 35;
+
+  const totalProfit = deals.reduce((s, d) => s + d.profit, 0);
+  const avgMargin = deals.length ? deals.reduce((s, d) => s + d.margin, 0) / deals.length : 0;
+
+  const tiles = [
+    { label: "Deals found", value: deals.length, good: deals.length > 0 },
+    { label: "Total potential profit", value: "$" + totalProfit.toFixed(2), good: true },
+    { label: "Avg. margin", value: avgMargin.toFixed(1) + "%", good: true },
+    { label: "Listings scanned", value: listingsScanned, good: false }
+  ];
+  document.getElementById("tiles").innerHTML = tiles.map(t => `
+    <div class="tile">
+      <div class="label">${t.label}</div>
+      <div class="value ${t.good ? "good" : ""}">${t.value}</div>
+    </div>
+  `).join("");
+
+  document.getElementById("deal-meta").textContent =
+    `${deals.length} of ${listingsScanned} scanned cleared the bar · ${rejectedCount} rejected as mismatches`;
+
+  document.getElementById("deals-body").innerHTML = deals.length
+    ? deals.map(d => `
+      <tr>
+        <td>
+          <a class="card-link" href="${d.url}" target="_blank" rel="noopener">${d.title}</a>
+          ${d.flagged ? '<div class="flag">⚠ Verify manually — unusually high margin</div>' : ''}
+        </td>
+        <td class="num">$${d.buy.toFixed(2)}</td>
+        <td class="num">$${d.resale.toFixed(2)}</td>
+        <td class="num profit">$${d.profit.toFixed(2)}</td>
+        <td class="num"><span class="margin-pill">${d.margin.toFixed(1)}%</span></td>
+        <td class="num" style="color:var(--text-secondary);">${d.daysListed ?? '?'}d listed · ${d.watchCount ?? '?'} watching</td>
+      </tr>
+    `).join("")
+    : `<tr><td colspan="6" style="text-align:center;padding:24px;color:var(--text-muted);">No deals cleared the profit bar today.</td></tr>`;
+</script>
+</body>
+</html>
