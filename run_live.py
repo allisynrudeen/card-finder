@@ -14,7 +14,8 @@ import datetime
 import sys
 
 from ebay_client import load_dotenv, get_access_token, search_listings, normalize_listing
-from comps_loader import load_comps
+from comps_loader import load_comps, load_comps_full
+from matching import title_matches_comp
 from scorer import find_deals
 from report import render_html_report
 
@@ -43,6 +44,7 @@ def main():
         sys.exit(1)
 
     comps = load_comps()
+    comps_full = load_comps_full()
     if not comps:
         print("comps.csv is empty -- add at least one card before running a live scan.")
         sys.exit(1)
@@ -51,21 +53,37 @@ def main():
     token = get_access_token(app_id, cert_id)
 
     all_listings = []
+    rejected_count = 0
     for card_name in comps:
+        meta = comps_full.get(card_name)
+        if meta is None:
+            print(f"  Skipping '{card_name}': needs a player_name column value in comps.csv to match safely.")
+            continue
+
         print(f"Searching: {card_name}")
         raw_results = search_listings(token, query=card_name, min_price=MIN_SEARCH_PRICE, max_price=MAX_SEARCH_PRICE)
         for raw in raw_results:
+            title = raw.get("title", "")
+            if not title_matches_comp(title, meta["player_name"], meta["grade"], meta["exclude_keywords"]):
+                rejected_count += 1
+                continue
             listing = normalize_listing(raw, comp_key=card_name)
             listing["daysListed"] = days_since(listing.pop("_itemCreationDate", None))
             all_listings.append(listing)
 
-    print(f"\nFetched {len(all_listings)} active listings across {len(comps)} cards you're tracking.")
+    print(f"\nFetched listings across {len(comps)} cards you're tracking.")
+    print(f"Rejected {rejected_count} listings as likely mismatches (wrong player, wrong grade, or an excluded insert/parallel).")
+    print(f"{len(all_listings)} listings passed the title-match check and moved on to scoring.")
 
     deals = find_deals(all_listings, comps)
 
-    print(f"Found {len(deals)} deals clearing $20+ profit and 20%+ margin:\n")
+    verified = [d for d in deals if not d.needs_manual_verification]
+    flagged = [d for d in deals if d.needs_manual_verification]
+
+    print(f"\nFound {len(deals)} deals clearing $20+ profit and 20%+ margin ({len(flagged)} flagged for manual verification due to unusually high margin):\n")
     for d in deals:
-        print(f"  {d.title}")
+        flag = "  [VERIFY MANUALLY -- unusually high margin, double-check this is really the right card]" if d.needs_manual_verification else ""
+        print(f"  {d.title}{flag}")
         print(f"    Buy: ${d.buy_price:.2f}  ->  Resale: ${d.est_resale_price:.2f}  |  Net profit: ${d.net_profit:.2f} ({d.margin_pct:.1f}% margin)  |  {d.days_listed}d listed, {d.watch_count} watchers\n")
 
     html = render_html_report(deals)

@@ -29,6 +29,14 @@ MIN_MARGIN_PCT = 20.0
 MAX_DAYS_LISTED = 250
 LOW_WATCH_COUNT_THRESHOLD = 2  # "basically no one is watching this"
 
+# Sanity check, independent of title matching: a real margin this high on a
+# graded sports card is rare. In practice this almost always means a title
+# match went wrong somewhere (wrong player, wrong parallel/insert, wrong
+# grade) rather than an actual windfall. We don't hide these -- you might be
+# right and the tool wrong -- but they get flagged for a manual look instead
+# of being presented as a clean, ready-to-buy deal.
+SANITY_MARGIN_PCT = 150.0
+
 
 def estimate_resale_shipping_cost(resale_price: float) -> float:
     """
@@ -80,6 +88,7 @@ class ScoredDeal:
     margin_pct: float
     days_listed: Optional[int]
     watch_count: Optional[int]
+    needs_manual_verification: bool
     comp_source_note: str
 
 
@@ -115,7 +124,8 @@ def score_listing(listing: dict, comps: dict) -> Optional[ScoredDeal]:
         margin_pct=math.margin_pct,
         days_listed=days_listed,
         watch_count=watch_count,
-        comp_source_note="sample/mock comp -- replace with live pricing source",
+        needs_manual_verification=math.margin_pct > SANITY_MARGIN_PCT,
+        comp_source_note="from comps.csv",
     )
 
 
