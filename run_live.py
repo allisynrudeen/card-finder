@@ -11,6 +11,7 @@ Usage:
 """
 
 import datetime
+import json
 import sys
 
 from ebay_client import load_dotenv, get_access_token, search_listings, normalize_listing
@@ -96,6 +97,33 @@ def main():
     with open("dashboard.html", "w") as f:
         f.write(dashboard_html)
     print("Wrote dashboard.html")
+
+    # Small, plain-JSON copy of today's results. This is what a scheduled
+    # Claude check-in reads (via a public raw.githubusercontent.com URL) to
+    # refresh your Cowork dashboard artifact automatically -- it's much
+    # easier for that to parse reliably than the full styled HTML page.
+    deals_data = {
+        "date": datetime.date.today().isoformat(),
+        "listings_scanned": len(all_listings) + rejected_count,
+        "rejected_count": rejected_count,
+        "deals": [
+            {
+                "title": d.title,
+                "url": d.listing_url,
+                "buy": d.buy_price,
+                "resale": d.est_resale_price,
+                "profit": d.net_profit,
+                "margin": d.margin_pct,
+                "daysListed": d.days_listed,
+                "watchCount": d.watch_count,
+                "flagged": d.needs_manual_verification,
+            }
+            for d in deals
+        ],
+    }
+    with open("deals_data.json", "w") as f:
+        json.dump(deals_data, f, indent=2)
+    print("Wrote deals_data.json")
 
 
 if __name__ == "__main__":
