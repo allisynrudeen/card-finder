@@ -18,6 +18,7 @@ from comps_loader import load_comps, load_comps_full
 from matching import title_matches_comp
 from scorer import find_deals
 from report import render_html_report
+from dashboard_report import render_dashboard_html
 
 MIN_SEARCH_PRICE = 10
 MAX_SEARCH_PRICE = 2000  # comfortably above the $750 signature-required tier
@@ -90,6 +91,11 @@ def main():
     with open("daily_report.html", "w") as f:
         f.write(html)
     print("Wrote daily_report.html")
+
+    dashboard_html = render_dashboard_html(deals, listings_scanned=len(all_listings) + rejected_count, rejected_count=rejected_count)
+    with open("dashboard.html", "w") as f:
+        f.write(dashboard_html)
+    print("Wrote dashboard.html")
 
 
 if __name__ == "__main__":
