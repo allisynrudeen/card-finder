@@ -19,6 +19,10 @@ Columns:
                            listing is a DIFFERENT product than your comp
                            (e.g. "Stare Masters,Straight Fire" for a base
                            Mosaic card) -- any match here rejects the listing
+  allow_numbered_parallel -- leave blank for a normal base card (any "/99"
+                           style numbered parallel gets auto-rejected). Only
+                           set this to "yes" if THIS row's card_name really
+                           is itself a numbered parallel.
   last_checked          -- date you last verified this price (YYYY-MM-DD)
   source                 -- where you got the number (130point, SportsCardsPro, etc)
   notes                  -- anything worth remembering (trending down, thin market, etc)
@@ -64,12 +68,14 @@ def load_comps_full(csv_path: str = COMPS_CSV_PATH) -> dict:
 
         exclude_raw = (row.get("exclude_keywords") or "").strip()
         exclude_keywords = [w.strip() for w in exclude_raw.split(",") if w.strip()]
+        allow_numbered = (row.get("allow_numbered_parallel") or "").strip().lower() in ("yes", "true", "1")
 
         comps[name] = {
             "value": value,
             "player_name": player_name,
             "grade": (row.get("grade") or "").strip(),
             "exclude_keywords": exclude_keywords,
+            "allow_numbered_parallel": allow_numbered,
         }
     return comps
 

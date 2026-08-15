@@ -12,6 +12,13 @@ isn't safe enough when real money is on the line.
 
 import re
 
+# Catches "/99", "/25", "/ 5" etc -- the standard way numbered parallels are
+# printed. If your comp card ISN'T a numbered parallel, a title with this
+# pattern is almost always a different, separately-valued product -- caught
+# a "Blue Prizm /99" mismatch on the first live run that no keyword list
+# would have anticipated.
+NUMBERED_PARALLEL_PATTERN = re.compile(r"/\s?\d{1,4}\b")
+
 
 def _normalize(text: str) -> str:
     text = text.lower()
@@ -19,7 +26,7 @@ def _normalize(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def title_matches_comp(title: str, player_name: str, grade: str, exclude_keywords: list = None) -> bool:
+def title_matches_comp(title: str, player_name: str, grade: str, exclude_keywords: list = None, allow_numbered_parallel: bool = False) -> bool:
     """
     True only if:
       - every word of the player's name appears as a whole word in the title
@@ -27,7 +34,12 @@ def title_matches_comp(title: str, player_name: str, grade: str, exclude_keyword
       - the grade (e.g. "PSA 10") appears in the title
       - none of the exclude_keywords (insert/parallel names that mean it's a
         DIFFERENT product than your comp, e.g. "Stare Masters") appear
+      - it isn't a numbered parallel ("/99") unless your comp itself is one
+        (allow_numbered_parallel=True)
     """
+    if not allow_numbered_parallel and NUMBERED_PARALLEL_PATTERN.search(title):
+        return False
+
     norm_title = _normalize(title)
     title_words = set(norm_title.split())
 

@@ -64,7 +64,7 @@ def main():
         raw_results = search_listings(token, query=card_name, min_price=MIN_SEARCH_PRICE, max_price=MAX_SEARCH_PRICE)
         for raw in raw_results:
             title = raw.get("title", "")
-            if not title_matches_comp(title, meta["player_name"], meta["grade"], meta["exclude_keywords"]):
+            if not title_matches_comp(title, meta["player_name"], meta["grade"], meta["exclude_keywords"], meta["allow_numbered_parallel"]):
                 rejected_count += 1
                 continue
             listing = normalize_listing(raw, comp_key=card_name)
