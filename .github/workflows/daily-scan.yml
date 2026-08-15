@@ -1,9 +1,9 @@
 name: Daily Card Scan
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:   # lets you click "Run workflow" manually to test it
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 12 * * *'   # 12:00 UTC = ~7:00 AM Central (shifts an hour with daylight saving)
 
 jobs:
   scan:
@@ -23,9 +23,14 @@ jobs:
           EBAY_CERT_ID: ${{ secrets.EBAY_CERT_ID }}
         run: python3 run_live.py
 
-      - name: Commit updated report
-        run: |
-          git config user.name "Card Finder Bot"
-          git config user.email "actions@github.com"
-          git add daily_report.html dashboard.html deals_data.json          git diff --quiet && git diff --staged --quiet || git commit -m "Daily scan: $(date -u +'%Y-%m-%d')"
-          git push
+      - name: Configure git
+        run: git config user.name "Card Finder Bot" && git config user.email "actions@github.com"
+
+      - name: Stage updated files
+        run: git add daily_report.html dashboard.html deals_data.json
+
+      - name: Commit if anything changed
+        run: git diff --staged --quiet || git commit -m "Daily scan: $(date -u +'%Y-%m-%d')"
+
+      - name: Push
+        run: git push
