@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-15",
+  "date": "2026-08-16",
   "listings_scanned": 67,
-  "rejected_count": 35,
+  "rejected_count": 34,
   "deals": [
     {
       "title": "2018-19 Panini Prizm #280 Luka Doncic PSA 9 ROOKIE RC",
@@ -21,7 +21,7 @@
       "resale": 210.0,
       "profit": 79.56,
       "margin": 82.9,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": false
     },
@@ -32,6 +32,17 @@
       "resale": 210.0,
       "profit": 61.16,
       "margin": 53.5,
+      "daysListed": 1,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "Panini 2020 Prizm Draft Picks Rookies Justin Herbert Ducks Chargers RC PSA 10",
+      "url": "https://www.ebay.com/itm/147507522496?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item2258222bc0:g:knMAAeSwiiFqgPlR",
+      "buy": 50.0,
+      "resale": 115.0,
+      "profit": 43.46,
+      "margin": 86.9,
       "daysListed": 0,
       "watchCount": null,
       "flagged": false
