@@ -89,13 +89,13 @@
     <div class="topbar">
       <div>
         <h1>Card Flip Dashboard</h1>
-        <div class="subtitle">Sunday, August 16, 2026 · Live eBay data</div>
+        <div class="subtitle">Monday, August 17, 2026 · Live eBay data</div>
       </div>
     </div>
 
     <div class="banner">
       <span class="dot"></span>
-      <span><strong>Live scan complete.</strong> Scanned 67 listings across your comps.csv, rejected 34 as likely mismatches before scoring.</span>
+      <span><strong>Live scan complete.</strong> Scanned 66 listings across your comps.csv, rejected 32 as likely mismatches before scoring.</span>
     </div>
 
     <div class="tiles" id="tiles"></div>
@@ -122,9 +122,9 @@
 </div>
 
 <script>
-  const deals = [{"title": "2018-19 Panini Prizm #280 Luka Doncic PSA 9 ROOKIE RC", "url": "https://www.ebay.com/itm/178397489561?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item298951a999:g:fdgAAeSwJtNqe470", "buy": 83.0, "resale": 210.0, "profit": 92.54, "margin": 111.5, "daysListed": 4, "watchCount": null, "flagged": false}, {"title": "Panini 2018-19 Prizm Luka Doncic #280 Base Set Rookie RC PSA 9 MINT Mavericks", "url": "https://www.ebay.com/itm/227472657786?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item34f66d4d7a:g:rqYAAeSwSOpqfD0m", "buy": 95.98, "resale": 210.0, "profit": 79.56, "margin": 82.9, "daysListed": 4, "watchCount": null, "flagged": false}, {"title": "2018-19 Panini Prizm Luka Doncic #280 PSA 9 MINT Rookie RC v9t", "url": "https://www.ebay.com/itm/257680906480?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item3bfefa98f0:g:hL4AAeSwhP1qf6xB", "buy": 114.38, "resale": 210.0, "profit": 61.16, "margin": 53.5, "daysListed": 1, "watchCount": null, "flagged": false}, {"title": "Panini 2020 Prizm Draft Picks Rookies Justin Herbert Ducks Chargers RC PSA 10", "url": "https://www.ebay.com/itm/147507522496?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item2258222bc0:g:knMAAeSwiiFqgPlR", "buy": 50.0, "resale": 115.0, "profit": 43.46, "margin": 86.9, "daysListed": 0, "watchCount": null, "flagged": false}, {"title": "2020 Panini Prizm - Rookie Justin Herbert PSA 10 #325 (RC)", "url": "https://www.ebay.com/itm/398289167729?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item5cbbe26571:g:mOgAAeSwpAlqgIn6", "buy": 65.0, "resale": 115.0, "profit": 28.46, "margin": 43.8, "daysListed": 0, "watchCount": null, "flagged": false}];
-  const listingsScanned = 67;
-  const rejectedCount = 34;
+  const deals = [{"title": "2018-19 Panini Prizm #280 Luka Doncic PSA 9 ROOKIE RC", "url": "https://www.ebay.com/itm/178397489561?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item298951a999:g:fdgAAeSwJtNqe470", "buy": 83.0, "resale": 210.0, "profit": 92.54, "margin": 111.5, "daysListed": 5, "watchCount": null, "flagged": false}, {"title": "LUKA DONCIC 2018 2019 18 19 Panini Hoops Class Of Holo Prizm RC PSA 9 #3 Rookie", "url": "https://www.ebay.com/itm/168619594036?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item274282d134:g:fuIAAOSw8exmWyd2", "buy": 90.75, "resale": 210.0, "profit": 84.79, "margin": 93.4, "daysListed": 0, "watchCount": null, "flagged": false}, {"title": "Panini 2018-19 Prizm Luka Doncic #280 Base Set Rookie RC PSA 9 MINT Mavericks", "url": "https://www.ebay.com/itm/227472657786?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item34f66d4d7a:g:rqYAAeSwSOpqfD0m", "buy": 95.98, "resale": 210.0, "profit": 79.56, "margin": 82.9, "daysListed": 5, "watchCount": null, "flagged": false}, {"title": "2018-19 Panini Prizm Luka Doncic #280 PSA 9 MINT Rookie RC v9t", "url": "https://www.ebay.com/itm/257680906480?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item3bfefa98f0:g:hL4AAeSwhP1qf6xB", "buy": 114.38, "resale": 210.0, "profit": 61.16, "margin": 53.5, "daysListed": 2, "watchCount": null, "flagged": false}, {"title": "2020 Panini Prizm DP Justin Herbert PSA 10 Gem Mint #102 RC Rookie Chargers", "url": "https://www.ebay.com/itm/287529759854?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item42f21bf46e:g:XXMAAeSwFU5qgn~o", "buy": 51.0, "resale": 115.0, "profit": 42.46, "margin": 83.3, "daysListed": 0, "watchCount": null, "flagged": false}, {"title": "2020 Panini Prizm Draft Picks - Draft Picks Rookies Justin Herbert #102 PSA 10", "url": "https://www.ebay.com/itm/307129968474?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item47825f675a:g:LXMAAeSwls1qgd-s", "buy": 59.99, "resale": 115.0, "profit": 33.47, "margin": 55.8, "daysListed": 0, "watchCount": null, "flagged": false}];
+  const listingsScanned = 66;
+  const rejectedCount = 32;
 
   const totalProfit = deals.reduce((s, d) => s + d.profit, 0);
   const avgMargin = deals.length ? deals.reduce((s, d) => s + d.margin, 0) / deals.length : 0;
