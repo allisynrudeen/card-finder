@@ -1,19 +1,8 @@
 {
-  "date": "2026-08-18",
+  "date": "2026-08-19",
   "listings_scanned": 66,
-  "rejected_count": 32,
+  "rejected_count": 33,
   "deals": [
-    {
-      "title": "Panini 2018-19 Prizm Luka Doncic RC Emergent Green Prizm #3 PSA 9",
-      "url": "https://www.ebay.com/itm/206498525383?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item30144570c7:g:-2YAAeSw1Llqgzlg",
-      "buy": 65.0,
-      "resale": 210.0,
-      "profit": 110.54,
-      "margin": 170.1,
-      "daysListed": 0,
-      "watchCount": null,
-      "flagged": true
-    },
     {
       "title": "Panini 2018-19 Prizm Luka Doncic #280 Base Set Rookie RC PSA 9 Mavericks",
       "url": "https://www.ebay.com/itm/257687141556?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item3bff59bcb4:g:7r8AAeSw5B5qg6dR",
@@ -21,20 +10,9 @@
       "resale": 210.0,
       "profit": 105.54,
       "margin": 150.8,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": true
-    },
-    {
-      "title": "2018-19 Panini Prizm #280 Luka Doncic PSA 9 ROOKIE RC",
-      "url": "https://www.ebay.com/itm/178397489561?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item298951a999:g:fdgAAeSwJtNqe470",
-      "buy": 83.0,
-      "resale": 210.0,
-      "profit": 92.54,
-      "margin": 111.5,
-      "daysListed": 6,
-      "watchCount": null,
-      "flagged": false
     },
     {
       "title": "LUKA DONCIC 2018 2019 18 19 Panini Hoops Class Of Holo Prizm RC PSA 9 #3 Rookie",
@@ -43,7 +21,7 @@
       "resale": 210.0,
       "profit": 84.79,
       "margin": 93.4,
-      "daysListed": 1,
+      "daysListed": 2,
       "watchCount": null,
       "flagged": false
     },
@@ -54,7 +32,7 @@
       "resale": 210.0,
       "profit": 79.56,
       "margin": 82.9,
-      "daysListed": 6,
+      "daysListed": 7,
       "watchCount": null,
       "flagged": false
     },
@@ -65,18 +43,40 @@
       "resale": 210.0,
       "profit": 61.16,
       "margin": 53.5,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2020 Panini Prizm DP Justin Herbert PSA 10 Gem Mint #102 RC Rookie Chargers",
-      "url": "https://www.ebay.com/itm/287529759854?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item42f21bf46e:g:XXMAAeSwFU5qgn~o",
-      "buy": 51.0,
+      "title": "2020 Panini Prizm Draft Justin Herbert Silver Prizm PSA 10 RC #102",
+      "url": "https://www.ebay.com/itm/178421739908?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item298ac3b184:g:IMwAAeSwsDVqhSBh",
+      "buy": 51.25,
       "resale": 115.0,
-      "profit": 42.46,
-      "margin": 83.3,
-      "daysListed": 1,
+      "profit": 42.21,
+      "margin": 82.4,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "Panini 2020 Playoff Justin Herbert Call to Arms Red Prizm #CA-19 PSA 10",
+      "url": "https://www.ebay.com/itm/237014407594?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item372f28d9aa:g:OoYAAeSw~vdqhHzA",
+      "buy": 53.0,
+      "resale": 115.0,
+      "profit": 40.46,
+      "margin": 76.3,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2018-19 Panini Prizm Luka Doncic #280 PSA 9 MINT Rookie RC 0yd9",
+      "url": "https://www.ebay.com/itm/237014762842?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item372f2e455a:g:-4IAAeSwt3xqhK0D",
+      "buy": 143.69,
+      "resale": 210.0,
+      "profit": 31.85,
+      "margin": 22.2,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     }
