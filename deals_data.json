@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-23",
-  "listings_scanned": 1334,
-  "rejected_count": 331,
+  "date": "2026-08-24",
+  "listings_scanned": 1327,
+  "rejected_count": 313,
   "deals": [
     {
       "title": "1997 Fleer 23KT Gold Michael Jordan 1986-87 Fleer Rookie Tribute PSA 9 Mint",
@@ -10,7 +10,7 @@
       "resale": 42524.23,
       "profit": 40398.3,
       "margin": 15048.2,
-      "daysListed": 2,
+      "daysListed": 3,
       "watchCount": null,
       "flagged": true
     },
@@ -21,7 +21,7 @@
       "resale": 4987.0,
       "profit": 3946.19,
       "margin": 1133.4,
-      "daysListed": 199,
+      "daysListed": 200,
       "watchCount": null,
       "flagged": true
     },
@@ -32,7 +32,7 @@
       "resale": 4073.5,
       "profit": 3005.11,
       "margin": 601.0,
-      "daysListed": 42,
+      "daysListed": 43,
       "watchCount": null,
       "flagged": true
     },
@@ -43,7 +43,7 @@
       "resale": 3120.0,
       "profit": 2324.29,
       "margin": 651.1,
-      "daysListed": 101,
+      "daysListed": 102,
       "watchCount": null,
       "flagged": true
     },
@@ -54,7 +54,7 @@
       "resale": 2871.0,
       "profit": 2116.14,
       "margin": 604.6,
-      "daysListed": 28,
+      "daysListed": 29,
       "watchCount": null,
       "flagged": true
     },
@@ -65,7 +65,7 @@
       "resale": 2871.0,
       "profit": 2111.14,
       "margin": 594.7,
-      "daysListed": 12,
+      "daysListed": 13,
       "watchCount": null,
       "flagged": true
     },
@@ -76,7 +76,7 @@
       "resale": 2871.0,
       "profit": 2066.14,
       "margin": 516.5,
-      "daysListed": 61,
+      "daysListed": 62,
       "watchCount": null,
       "flagged": true
     },
@@ -87,18 +87,18 @@
       "resale": 2871.0,
       "profit": 2060.15,
       "margin": 507.4,
-      "daysListed": 12,
+      "daysListed": 13,
       "watchCount": null,
       "flagged": true
     },
     {
       "title": "Giannis Antetokounmpo 2013-14 Panini Prizm Rookie Card #290 PSA 9",
       "url": "https://www.ebay.com/itm/407035834854?_skw=2013-14+Panini+Prizm+Giannis+Antetokounmpo+Rookie+PSA+9&hash=item5ec539f1e6:g:jT8AAeSwP3hqQoXa",
-      "buy": 427.5,
+      "buy": 450.0,
       "resale": 2871.0,
-      "profit": 2038.64,
-      "margin": 476.9,
-      "daysListed": 54,
+      "profit": 2016.14,
+      "margin": 448.0,
+      "daysListed": 55,
       "watchCount": null,
       "flagged": true
     },
@@ -109,7 +109,7 @@
       "resale": 2871.0,
       "profit": 2011.15,
       "margin": 442.0,
-      "daysListed": 90,
+      "daysListed": 91,
       "watchCount": null,
       "flagged": true
     },
@@ -120,7 +120,7 @@
       "resale": 2871.0,
       "profit": 1981.14,
       "margin": 408.5,
-      "daysListed": 61,
+      "daysListed": 62,
       "watchCount": null,
       "flagged": true
     },
@@ -131,7 +131,7 @@
       "resale": 4073.5,
       "profit": 1895.1,
       "margin": 117.7,
-      "daysListed": 1,
+      "daysListed": 2,
       "watchCount": null,
       "flagged": false
     },
@@ -142,7 +142,7 @@
       "resale": 2871.0,
       "profit": 1880.77,
       "margin": 321.3,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": true
     },
@@ -153,7 +153,7 @@
       "resale": 2871.0,
       "profit": 1846.53,
       "margin": 298.0,
-      "daysListed": 10,
+      "daysListed": 11,
       "watchCount": null,
       "flagged": true
     },
@@ -164,7 +164,7 @@
       "resale": 2871.0,
       "profit": 1702.98,
       "margin": 223.1,
-      "daysListed": 20,
+      "daysListed": 21,
       "watchCount": null,
       "flagged": true
     },
@@ -175,7 +175,7 @@
       "resale": 2871.0,
       "profit": 1676.16,
       "margin": 212.2,
-      "daysListed": 2,
+      "daysListed": 3,
       "watchCount": null,
       "flagged": true
     },
@@ -186,7 +186,7 @@
       "resale": 2871.0,
       "profit": 1667.14,
       "margin": 208.7,
-      "daysListed": 48,
+      "daysListed": 49,
       "watchCount": null,
       "flagged": true
     },
@@ -197,7 +197,7 @@
       "resale": 2871.0,
       "profit": 1616.14,
       "margin": 190.1,
-      "daysListed": 48,
+      "daysListed": 49,
       "watchCount": null,
       "flagged": true
     },
@@ -208,7 +208,7 @@
       "resale": 1827.5,
       "profit": 1469.57,
       "margin": 1547.1,
-      "daysListed": 12,
+      "daysListed": 13,
       "watchCount": null,
       "flagged": true
     },
@@ -219,7 +219,7 @@
       "resale": 2871.0,
       "profit": 1456.16,
       "margin": 144.2,
-      "daysListed": 21,
+      "daysListed": 22,
       "watchCount": null,
       "flagged": false
     },
@@ -230,7 +230,7 @@
       "resale": 2871.0,
       "profit": 1436.14,
       "margin": 139.4,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": false
     },
@@ -241,7 +241,7 @@
       "resale": 1827.5,
       "profit": 1404.57,
       "margin": 877.9,
-      "daysListed": 6,
+      "daysListed": 7,
       "watchCount": null,
       "flagged": true
     },
@@ -252,7 +252,7 @@
       "resale": 1827.5,
       "profit": 1374.56,
       "margin": 723.5,
-      "daysListed": 20,
+      "daysListed": 21,
       "watchCount": null,
       "flagged": true
     },
@@ -263,7 +263,7 @@
       "resale": 1827.5,
       "profit": 1363.61,
       "margin": 678.6,
-      "daysListed": 4,
+      "daysListed": 5,
       "watchCount": null,
       "flagged": true
     },
@@ -274,7 +274,7 @@
       "resale": 2871.0,
       "profit": 1266.14,
       "margin": 105.5,
-      "daysListed": 60,
+      "daysListed": 61,
       "watchCount": null,
       "flagged": false
     },
@@ -285,7 +285,18 @@
       "resale": 1827.5,
       "profit": 1265.56,
       "margin": 423.3,
-      "daysListed": 18,
+      "daysListed": 19,
+      "watchCount": null,
+      "flagged": true
+    },
+    {
+      "title": "2003 Topps Matrix - LeBron James, Carmelo Anthony, Chris Bosh RC Rookie - PSA 9",
+      "url": "https://www.ebay.com/itm/147522548831?_skw=2003-04+Topps+LeBron+James+Rookie+PSA+9&hash=item225907745f:g:fUoAAeSwQKZqi0VV",
+      "buy": 338.0,
+      "resale": 1827.5,
+      "profit": 1226.56,
+      "margin": 362.9,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": true
     },
@@ -296,7 +307,18 @@
       "resale": 3120.0,
       "profit": 1175.7,
       "margin": 78.1,
-      "daysListed": 91,
+      "daysListed": 92,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2013-14 Select Silver Prizm #178 Giannis Antetokounmpo Rookie Auto RC card PSA 9",
+      "url": "https://www.ebay.com/itm/336548981256?_skw=2013-14+Panini+Prizm+Giannis+Antetokounmpo+Rookie+PSA+9&hash=item4e5be1ea08:g:ER0AAeSwwilp6pK~",
+      "buy": 1300.0,
+      "resale": 2871.0,
+      "profit": 1166.14,
+      "margin": 89.7,
+      "daysListed": 122,
       "watchCount": null,
       "flagged": false
     },
@@ -307,7 +329,7 @@
       "resale": 1466.67,
       "profit": 1127.8,
       "margin": 902.2,
-      "daysListed": 59,
+      "daysListed": 60,
       "watchCount": null,
       "flagged": true
     },
@@ -318,7 +340,18 @@
       "resale": 1827.5,
       "profit": 1114.57,
       "margin": 247.7,
-      "daysListed": 1,
+      "daysListed": 2,
+      "watchCount": null,
+      "flagged": true
+    },
+    {
+      "title": "2003 Topps Matrix - LeBron James, Dwyane Wade, Chris Bosh - RC Rookie - PSA 9",
+      "url": "https://www.ebay.com/itm/147522553964?_skw=2003-04+Topps+LeBron+James+Rookie+PSA+9&hash=item225907886c:g:RfwAAeSwxFVqi0eg",
+      "buy": 525.0,
+      "resale": 1827.5,
+      "profit": 1039.56,
+      "margin": 198.0,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": true
     },
@@ -329,7 +362,7 @@
       "resale": 2871.0,
       "profit": 1038.09,
       "margin": 72.7,
-      "daysListed": 56,
+      "daysListed": 57,
       "watchCount": null,
       "flagged": false
     },
@@ -340,7 +373,7 @@
       "resale": 1827.5,
       "profit": 969.56,
       "margin": 163.0,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": true
     },
@@ -351,7 +384,7 @@
       "resale": 1827.5,
       "profit": 965.56,
       "margin": 161.2,
-      "daysListed": 15,
+      "daysListed": 16,
       "watchCount": null,
       "flagged": true
     },
@@ -362,7 +395,7 @@
       "resale": 1466.67,
       "profit": 896.3,
       "margin": 251.4,
-      "daysListed": 249,
+      "daysListed": 250,
       "watchCount": null,
       "flagged": true
     },
@@ -373,9 +406,31 @@
       "resale": 1827.5,
       "profit": 879.56,
       "margin": 128.4,
-      "daysListed": 1,
+      "daysListed": 2,
       "watchCount": null,
       "flagged": false
+    },
+    {
+      "title": "Topps 2023 Bowman Draft Chrome Paul Skenes BDC-14 Rookie Auto PSA 10 Pirates",
+      "url": "https://www.ebay.com/itm/206511298178?_skw=2023+Bowman+Draft+Chrome+Paul+Skenes+Rookie+Auto+PSA+10&hash=item3015085682:g:HyMAAeSw3h9qi25H",
+      "buy": 1000.0,
+      "resale": 2179.44,
+      "profit": 868.64,
+      "margin": 86.9,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2017 Panini Prizm - Instant Impact Patrick Mahomes II #8 Silver Prizm (RC) PSA 9",
+      "url": "https://www.ebay.com/itm/800551538614?_skw=2017+Panini+Prizm+Patrick+Mahomes+Rookie+PSA+9&hash=itemba64970fb6:g:PeoAAeSwiOxqiwcG",
+      "buy": 399.99,
+      "resale": 1466.67,
+      "profit": 852.81,
+      "margin": 213.2,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": true
     },
     {
       "title": "2015-16 Upper Deck CONNOR MCDAVID Young Guns Canvas PSA 10 #C211 RC Oilers YG",
@@ -384,7 +439,7 @@
       "resale": 3120.0,
       "profit": 850.62,
       "margin": 46.5,
-      "daysListed": 36,
+      "daysListed": 37,
       "watchCount": null,
       "flagged": false
     },
@@ -395,7 +450,7 @@
       "resale": 1466.67,
       "profit": 802.8,
       "margin": 178.4,
-      "daysListed": 1,
+      "daysListed": 2,
       "watchCount": null,
       "flagged": true
     },
@@ -406,7 +461,7 @@
       "resale": 1827.5,
       "profit": 783.58,
       "margin": 100.3,
-      "daysListed": 6,
+      "daysListed": 7,
       "watchCount": null,
       "flagged": false
     },
@@ -417,18 +472,7 @@
       "resale": 1827.5,
       "profit": 758.57,
       "margin": 94.1,
-      "daysListed": 17,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2017 Panini Prizm PATRICK MAHOMES II RC Instant Impact- Green SSP #8 PSA 9",
-      "url": "https://www.ebay.com/itm/397394794538?_skw=2017+Panini+Prizm+Patrick+Mahomes+Rookie+PSA+9&hash=item5c8693582a:g:IA4AAeSwaDFpDMBG",
-      "buy": 549.99,
-      "resale": 1466.67,
-      "profit": 702.81,
-      "margin": 127.8,
-      "daysListed": 250,
+      "daysListed": 18,
       "watchCount": null,
       "flagged": false
     },
@@ -439,7 +483,7 @@
       "resale": 1466.67,
       "profit": 673.8,
       "margin": 116.4,
-      "daysListed": 201,
+      "daysListed": 202,
       "watchCount": null,
       "flagged": false
     },
@@ -450,7 +494,7 @@
       "resale": 1466.67,
       "profit": 557.64,
       "margin": 80.2,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": false
     },
@@ -461,7 +505,7 @@
       "resale": 1650.0,
       "profit": 536.2,
       "margin": 61.3,
-      "daysListed": 20,
+      "daysListed": 21,
       "watchCount": null,
       "flagged": false
     },
@@ -472,7 +516,7 @@
       "resale": 1650.0,
       "profit": 486.2,
       "margin": 52.6,
-      "daysListed": 21,
+      "daysListed": 22,
       "watchCount": null,
       "flagged": false
     },
@@ -483,7 +527,7 @@
       "resale": 1827.5,
       "profit": 464.56,
       "margin": 42.2,
-      "daysListed": 1,
+      "daysListed": 2,
       "watchCount": null,
       "flagged": false
     },
@@ -494,7 +538,7 @@
       "resale": 709.99,
       "profit": 448.05,
       "margin": 286.3,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": true
     },
@@ -505,7 +549,7 @@
       "resale": 680.0,
       "profit": 426.02,
       "margin": 279.2,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": true
     },
@@ -516,7 +560,7 @@
       "resale": 680.0,
       "profit": 426.02,
       "margin": 279.2,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": true
     },
@@ -527,7 +571,7 @@
       "resale": 680.0,
       "profit": 426.02,
       "margin": 279.2,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": true
     },
@@ -538,7 +582,7 @@
       "resale": 970.06,
       "profit": 423.73,
       "margin": 105.9,
-      "daysListed": 8,
+      "daysListed": 9,
       "watchCount": null,
       "flagged": false
     },
@@ -549,18 +593,7 @@
       "resale": 1650.0,
       "profit": 411.2,
       "margin": 41.1,
-      "daysListed": 6,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2023 Bowman Chrome Mega Box Junior Caminero Prospect Auto PSA 10 Tampa Bay Rays",
-      "url": "https://www.ebay.com/itm/398197165392?_skw=2023+Bowman+Chrome+Prospect+Junior+Caminero+Rookie+Auto+PSA+10&hash=item5cb6668d50:g:ZCgAAeSwt4FqXr3m",
-      "buy": 415.0,
-      "resale": 970.06,
-      "profit": 408.73,
-      "margin": 98.5,
-      "daysListed": 33,
+      "daysListed": 7,
       "watchCount": null,
       "flagged": false
     },
@@ -571,7 +604,7 @@
       "resale": 970.06,
       "profit": 398.73,
       "margin": 93.8,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": false
     },
@@ -582,7 +615,7 @@
       "resale": 709.99,
       "profit": 379.53,
       "margin": 168.7,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": true
     },
@@ -593,7 +626,7 @@
       "resale": 941.28,
       "profit": 352.97,
       "margin": 79.2,
-      "daysListed": 2,
+      "daysListed": 3,
       "watchCount": null,
       "flagged": false
     },
@@ -604,7 +637,7 @@
       "resale": 941.28,
       "profit": 343.03,
       "margin": 75.3,
-      "daysListed": 2,
+      "daysListed": 3,
       "watchCount": null,
       "flagged": false
     },
@@ -615,7 +648,7 @@
       "resale": 500.0,
       "profit": 317.12,
       "margin": 299.2,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": true
     },
@@ -626,7 +659,7 @@
       "resale": 941.28,
       "profit": 299.87,
       "margin": 60.1,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -637,18 +670,7 @@
       "resale": 680.0,
       "profit": 280.67,
       "margin": 94.2,
-      "daysListed": 15,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2025 Topps Chrome VJ Edgecombe RC Rookie #253 X-Fractor PSA 10 xfractor",
-      "url": "https://www.ebay.com/itm/168631602974?_skw=2025-26+Topps+Chrome+VJ+Edgecombe+Rookie+PSA+10&hash=item27433a0f1e:g:gPIAAeSw9fJqiOy0",
-      "buy": 329.99,
-      "resale": 709.99,
-      "profit": 274.54,
-      "margin": 83.2,
-      "daysListed": 1,
+      "daysListed": 16,
       "watchCount": null,
       "flagged": false
     },
@@ -659,7 +681,7 @@
       "resale": 1827.5,
       "profit": 264.56,
       "margin": 20.4,
-      "daysListed": 16,
+      "daysListed": 17,
       "watchCount": null,
       "flagged": false
     },
@@ -670,7 +692,7 @@
       "resale": 795.0,
       "profit": 252.53,
       "margin": 60.1,
-      "daysListed": 73,
+      "daysListed": 74,
       "watchCount": null,
       "flagged": false
     },
@@ -681,7 +703,7 @@
       "resale": 795.0,
       "profit": 222.49,
       "margin": 49.4,
-      "daysListed": 5,
+      "daysListed": 6,
       "watchCount": null,
       "flagged": false
     },
@@ -692,7 +714,7 @@
       "resale": 468.87,
       "profit": 201.2,
       "margin": 103.2,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -703,7 +725,7 @@
       "resale": 425.0,
       "profit": 198.3,
       "margin": 123.9,
-      "daysListed": 4,
+      "daysListed": 5,
       "watchCount": null,
       "flagged": false
     },
@@ -714,20 +736,9 @@
       "resale": 650.0,
       "profit": 187.7,
       "margin": 51.4,
-      "daysListed": 35,
+      "daysListed": 36,
       "watchCount": null,
       "flagged": false
-    },
-    {
-      "title": "0220 Victor Wembanyama 2023 Panini Prizm Draft Picks #1 Widescreen RC PSA 10",
-      "url": "https://www.ebay.com/itm/158214446028?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item24d650dbcc:g:820AAeSwNRJqiZcs",
-      "buy": 105.99,
-      "resale": 347.0,
-      "profit": 184.92,
-      "margin": 174.5,
-      "daysListed": 0,
-      "watchCount": null,
-      "flagged": true
     },
     {
       "title": "PSA 10 Gem Mint 2025 Topps Chrome VJ Edgecombe Basketball Refractor",
@@ -736,7 +747,7 @@
       "resale": 709.99,
       "profit": 179.53,
       "margin": 42.2,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -747,7 +758,7 @@
       "resale": 500.0,
       "profit": 173.1,
       "margin": 69.2,
-      "daysListed": 12,
+      "daysListed": 13,
       "watchCount": null,
       "flagged": false
     },
@@ -758,16 +769,27 @@
       "resale": 425.0,
       "profit": 168.3,
       "margin": 88.6,
-      "daysListed": 30,
+      "daysListed": 31,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2023 Panini Prizm Monopoly Victor Wembanyama Rookie PSA 10 Gem Mint 10 #81 Spurs",
-      "url": "https://www.ebay.com/itm/407163738178?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item5eccd99842:g:D8AAAeSwj8NqilLi",
-      "buy": 124.99,
+      "title": "2023 Prizm Monopoly Victor Wembanyama 81 PSA 10 RC Spurs Rookie Card Wemby",
+      "url": "https://www.ebay.com/itm/147522609827?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item22590862a3:g:vmoAAeSwkAlqi1Te",
+      "buy": 125.0,
       "resale": 347.0,
-      "profit": 165.92,
+      "profit": 165.91,
+      "margin": 132.7,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "Panini Prizm 2023-24 Victor Wembanyama Emergent #12 RC PSA 10 Spurs",
+      "url": "https://www.ebay.com/itm/318769434190?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item4a38238e4e:g:CeYAAeSwuVhqi1SK",
+      "buy": 125.0,
+      "resale": 347.0,
+      "profit": 165.91,
       "margin": 132.7,
       "daysListed": 0,
       "watchCount": null,
@@ -780,7 +802,7 @@
       "resale": 425.0,
       "profit": 158.3,
       "margin": 79.2,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": false
     },
@@ -791,7 +813,7 @@
       "resale": 347.0,
       "profit": 157.91,
       "margin": 118.7,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -802,18 +824,18 @@
       "resale": 425.0,
       "profit": 151.31,
       "margin": 73.1,
-      "daysListed": 9,
+      "daysListed": 10,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2025 Topps Chrome Cooper Flagg Go Time PSA 10 RC",
-      "url": "https://www.ebay.com/itm/820028855267?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=itembeed8753e3:g:L-UAAeSwW6dqh5U9",
-      "buy": 100.0,
+      "title": "2025-25 Topps Chrome Cooper Flagg #GT-16 RC Rookie Go Time PSA 10 GEM MT (QTY)",
+      "url": "https://www.ebay.com/itm/147522570720?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item225907c9e0:g:QcUAAeSwhFRqi0ze",
+      "buy": 99.95,
       "resale": 299.0,
-      "profit": 149.44,
-      "margin": 149.4,
-      "daysListed": 2,
+      "profit": 149.49,
+      "margin": 149.6,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -824,31 +846,9 @@
       "resale": 299.0,
       "profit": 148.44,
       "margin": 147.0,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
-    },
-    {
-      "title": "Panini 2024 Prizm Monopoly WNBA Prizm Skills Caitlin Clark WNBA27 RC PSA 10",
-      "url": "https://www.ebay.com/itm/800547477304?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=itemba64591738:g:iscAAeSwndxqiREe",
-      "buy": 85.0,
-      "resale": 275.0,
-      "profit": 143.7,
-      "margin": 169.1,
-      "daysListed": 1,
-      "watchCount": null,
-      "flagged": true
-    },
-    {
-      "title": "2024 Prizm Draft Picks #57 CAITLIN CLARK Iowa Rookie Card (RC) Variation PSA 10",
-      "url": "https://www.ebay.com/itm/267763922494?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item3e57f9363e:g:qN4AAeSwS3BqiOs8",
-      "buy": 85.0,
-      "resale": 275.0,
-      "profit": 143.7,
-      "margin": 169.1,
-      "daysListed": 1,
-      "watchCount": null,
-      "flagged": true
     },
     {
       "title": "LUKA DONCIC 2018-19 PRIZM EMERGENT BASKETBALL ROOKIE RC #3 MAVERICKS PSA 9",
@@ -857,9 +857,20 @@
       "resale": 210.0,
       "profit": 140.37,
       "margin": 399.1,
-      "daysListed": 2,
+      "daysListed": 3,
       "watchCount": null,
       "flagged": true
+    },
+    {
+      "title": "2025-26 Topps Chrome - Ball of Duty Cooper Flagg #BD-21 (RC) PSA 10",
+      "url": "https://www.ebay.com/itm/128040895213?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item1dcfd502ed:g:t88AAeSwLrNqi3la",
+      "buy": 110.0,
+      "resale": 299.0,
+      "profit": 139.44,
+      "margin": 126.8,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
     },
     {
       "title": "LUKA DONCIC 2018-19 PRIZM EMERGENT BASKETBALL ROOKIE RC #3 MAVERICKS PSA 9",
@@ -868,7 +879,7 @@
       "resale": 210.0,
       "profit": 139.09,
       "margin": 381.6,
-      "daysListed": 3,
+      "daysListed": 4,
       "watchCount": null,
       "flagged": true
     },
@@ -879,7 +890,29 @@
       "resale": 440.9,
       "profit": 134.85,
       "margin": 56.9,
-      "daysListed": 28,
+      "daysListed": 29,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "Topps 2025-26 Topps Chrome Cooper Flagg Go Time #GT-16 PSA 10 Mavericks",
+      "url": "https://www.ebay.com/itm/307142115807?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item478318c1df:g:XXAAAeSw-dlqiuMM",
+      "buy": 115.0,
+      "resale": 299.0,
+      "profit": 134.44,
+      "margin": 116.9,
+      "daysListed": 1,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2023-24 Panini Prizm Instant Impact #3 Victor Wembanyama RC PSA 10 Spurs",
+      "url": "https://www.ebay.com/itm/298610418263?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item4586916257:g:nFcAAeSw-MtqikR8",
+      "buy": 158.39,
+      "resale": 347.0,
+      "profit": 132.52,
+      "margin": 83.7,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -890,28 +923,17 @@
       "resale": 709.99,
       "profit": 129.53,
       "margin": 27.3,
-      "daysListed": 0,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2024 Prizm Monopoly WNBA #65 Caitlin Clark Rookie RC PSA 10 Gem",
-      "url": "https://www.ebay.com/itm/336755028831?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item4e6829f35f:g:75AAAeSwHUpqiNkQ",
-      "buy": 99.99,
-      "resale": 275.0,
-      "profit": 128.71,
-      "margin": 128.7,
       "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2024 Panini Prizm Caitlin Clark Fearless Silver Prizm #24 (RC) PSA 10",
-      "url": "https://www.ebay.com/itm/366623455251?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item555c75f813:g:ShoAAeSwPXdqirl3",
-      "buy": 100.0,
-      "resale": 275.0,
-      "profit": 128.7,
-      "margin": 128.7,
+      "title": "2025-25 Topps Chrome Cooper Flagg #YQ-1 RC Rookie Youthquake PSA 10 GEM MT (QTY)",
+      "url": "https://www.ebay.com/itm/147522589556?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item2259081374:g:45MAAeSw7F9qi1DK",
+      "buy": 119.95,
+      "resale": 299.0,
+      "profit": 129.49,
+      "margin": 108.0,
       "daysListed": 0,
       "watchCount": null,
       "flagged": false
@@ -923,18 +945,7 @@
       "resale": 425.0,
       "profit": 125.51,
       "margin": 53.9,
-      "daysListed": 25,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2025 Topps Chrome Cooper Flagg #BD-21 Ball of Duty Rookie Card PSA 10 GEM MINT",
-      "url": "https://www.ebay.com/itm/267763189262?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item3e57ee060e:g:2FIAAeSw0jpqh7VL",
-      "buy": 124.97,
-      "resale": 299.0,
-      "profit": 124.47,
-      "margin": 99.6,
-      "daysListed": 2,
+      "daysListed": 26,
       "watchCount": null,
       "flagged": false
     },
@@ -945,18 +956,51 @@
       "resale": 425.0,
       "profit": 124.14,
       "margin": 53.0,
-      "daysListed": 143,
+      "daysListed": 144,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "Caitlin Clark PSA 10 Panini Prizm Monopoly WNBA Indiana Fever Slab",
-      "url": "https://www.ebay.com/itm/820030083409?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=itembeed9a1151:g:7woAAeSw7DBqh-8R",
-      "buy": 126.95,
-      "resale": 275.0,
-      "profit": 101.75,
-      "margin": 80.1,
-      "daysListed": 2,
+      "title": "Luka Doncic 2018 Panini Prizm Emergent Green Prizm RC  PSA 9 ",
+      "url": "https://www.ebay.com/itm/336757710329?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item4e6852ddf9:g:3jIAAeSwvFJqi1vG",
+      "buy": 55.0,
+      "resale": 210.0,
+      "profit": 120.54,
+      "margin": 219.2,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": true
+    },
+    {
+      "title": "2025 Topps Chrome Cooper Flagg #IP18 Inspirational Rookie RC PSA 10 GEM MINT",
+      "url": "https://www.ebay.com/itm/267765671986?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item3e5813e832:g:4zYAAeSwM2lqi83M",
+      "buy": 130.17,
+      "resale": 299.0,
+      "profit": 119.27,
+      "margin": 91.6,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "Victor Wembanyama RC 2023 Hoops Premium Stock SHEESH Prizm PSA 10 Spurs",
+      "url": "https://www.ebay.com/itm/168635580026?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item274376be7a:g:xvsAAeSwskFqjBME",
+      "buy": 175.0,
+      "resale": 347.0,
+      "profit": 115.91,
+      "margin": 66.2,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2023-24 Panini Prizm Deep Space #1 Victor Wembanyama RC PSA 10 Spurs",
+      "url": "https://www.ebay.com/itm/237024485667?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item372fc2a123:g:vvgAAeSw1nRqim48",
+      "buy": 190.0,
+      "resale": 347.0,
+      "profit": 100.91,
+      "margin": 53.1,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -967,7 +1011,18 @@
       "resale": 468.87,
       "profit": 100.3,
       "margin": 33.9,
-      "daysListed": 7,
+      "daysListed": 8,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2023 Panini Prizm Deep Space  Victor Wembanyama ROOKIE CARD #1 PSA 10 GEM MINT",
+      "url": "https://www.ebay.com/itm/267765651475?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item3e58139813:g:jOoAAeSwvSNqi8KL",
+      "buy": 194.0,
+      "resale": 347.0,
+      "profit": 96.91,
+      "margin": 50.0,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -978,7 +1033,7 @@
       "resale": 299.0,
       "profit": 94.19,
       "margin": 60.7,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -989,62 +1044,40 @@
       "resale": 210.0,
       "profit": 92.54,
       "margin": 111.5,
-      "daysListed": 2,
+      "daysListed": 3,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "Panini 2023-24 Prizm Instant Impact Victor Wembanyama #3 Rookie Spurs PSA 10",
-      "url": "https://www.ebay.com/itm/227487379456?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item34f74df000:g:ZN0AAeSwDFZqikE1",
-      "buy": 199.99,
-      "resale": 347.0,
-      "profit": 90.92,
-      "margin": 45.5,
+      "title": "Macklin Celebrini Will Smith PSA 10 2024-25 Upper Deck Young Guns Teammates #499",
+      "url": "https://www.ebay.com/itm/227489533915?_skw=2024-25+Upper+Deck+Young+Guns+Macklin+Celebrini+Rookie+PSA+10&hash=item34f76ecfdb:g:Jx4AAeSwE~FqjDQS",
+      "buy": 289.99,
+      "resale": 450.0,
+      "profit": 89.91,
+      "margin": 31.0,
       "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2023-24 Panini Donruss Optic - Splash! Victor Wembanyama #6 Holo Prizm RC PSA 10",
-      "url": "https://www.ebay.com/itm/227486379083?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item34f73eac4b:g:t7MAAeSwvW9qiThj",
-      "buy": 199.99,
-      "resale": 347.0,
-      "profit": 90.92,
-      "margin": 45.5,
-      "daysListed": 1,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2023-24 Panini Prizm Deep Space #1 Victor Wembanyama RC PSA 10 Spurs",
-      "url": "https://www.ebay.com/itm/237024485667?_skw=2023-24+Panini+Prizm+Victor+Wembanyama+Rookie+PSA+10&hash=item372fc2a123:g:vvgAAeSw1nRqim48",
-      "buy": 200.0,
-      "resale": 347.0,
-      "profit": 90.91,
-      "margin": 45.5,
+      "title": "2024 Panini Prizm Monopoly WNBA Caitlin Clark PSA 10 RC #65",
+      "url": "https://www.ebay.com/itm/227488768620?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item34f763226c:g:uToAAeSwWOBqi4et",
+      "buy": 140.0,
+      "resale": 275.0,
+      "profit": 88.7,
+      "margin": 63.4,
       "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "Panini Prizm 2018-19 Luka Doncic Rookie Base Set #280 PSA 9 Dallas Mavericks",
-      "url": "https://www.ebay.com/itm/377437453729?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item57e1067da1:g:DkAAAeSwuVhqh8nL",
-      "buy": 84.99,
-      "resale": 210.0,
-      "profit": 90.55,
-      "margin": 106.5,
-      "daysListed": 2,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "Topps 2025-26 Chrome Serenity Cooper Flagg Dallas Mavericks RC PSA 10 #SY-11",
-      "url": "https://www.ebay.com/itm/800540932636?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=itemba63f53a1c:g:5z0AAeSwLcVqhzWt",
-      "buy": 159.99,
-      "resale": 299.0,
-      "profit": 89.45,
-      "margin": 55.9,
-      "daysListed": 2,
+      "title": "Panini 2024-25 Prizm Draft Picks Caitlin Clark Deep Space Silver #8 PSA 10 RC",
+      "url": "https://www.ebay.com/itm/287542149781?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item42f2d90295:g:-P4AAeSw0FZqi4B4",
+      "buy": 140.0,
+      "resale": 275.0,
+      "profit": 88.7,
+      "margin": 63.4,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -1055,18 +1088,7 @@
       "resale": 425.0,
       "profit": 88.12,
       "margin": 32.6,
-      "daysListed": 24,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2025-26 Topps Chrome Instinct #INS-11 Cooper Flagg RC PSA 10",
-      "url": "https://www.ebay.com/itm/188828451743?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item2bf70d839f:g:Fx4AAeSw2ZtqiLgH",
-      "buy": 164.99,
-      "resale": 299.0,
-      "profit": 84.45,
-      "margin": 51.2,
-      "daysListed": 1,
+      "daysListed": 25,
       "watchCount": null,
       "flagged": false
     },
@@ -1077,7 +1099,7 @@
       "resale": 468.87,
       "profit": 76.21,
       "margin": 23.8,
-      "daysListed": 4,
+      "daysListed": 5,
       "watchCount": null,
       "flagged": false
     },
@@ -1088,7 +1110,7 @@
       "resale": 468.87,
       "profit": 76.2,
       "margin": 23.8,
-      "daysListed": 6,
+      "daysListed": 7,
       "watchCount": null,
       "flagged": false
     },
@@ -1099,7 +1121,18 @@
       "resale": 450.0,
       "profit": 74.68,
       "margin": 24.5,
-      "daysListed": 2,
+      "daysListed": 3,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2024 Panini Prizm Draft Picks Caitlin Clark Rookie Silver Prizm #57 PSA 10",
+      "url": "https://www.ebay.com/itm/377442510224?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item57e153a590:g:xkYAAeSwxKZqi2SK",
+      "buy": 154.99,
+      "resale": 275.0,
+      "profit": 73.71,
+      "margin": 47.6,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -1110,7 +1143,7 @@
       "resale": 232.79,
       "profit": 70.23,
       "margin": 56.2,
-      "daysListed": 12,
+      "daysListed": 13,
       "watchCount": null,
       "flagged": false
     },
@@ -1121,7 +1154,7 @@
       "resale": 425.0,
       "profit": 68.31,
       "margin": 23.6,
-      "daysListed": 14,
+      "daysListed": 15,
       "watchCount": null,
       "flagged": false
     },
@@ -1132,7 +1165,7 @@
       "resale": 425.0,
       "profit": 66.11,
       "margin": 22.6,
-      "daysListed": 13,
+      "daysListed": 14,
       "watchCount": null,
       "flagged": false
     },
@@ -1143,7 +1176,18 @@
       "resale": 210.0,
       "profit": 64.5,
       "margin": 58.1,
-      "daysListed": 1,
+      "daysListed": 2,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2018-19 Panini Prizm Luka Doncic #280 PSA 9 MINT Rookie RC 06or",
+      "url": "https://www.ebay.com/itm/257698535649?_skw=2018+Prizm+Luka+Doncic+Rookie+PSA+9&hash=item3c000798e1:g:buIAAeSwbp5qi5Wl",
+      "buy": 113.33,
+      "resale": 210.0,
+      "profit": 62.21,
+      "margin": 54.9,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -1154,13 +1198,13 @@
       "resale": 232.79,
       "profit": 61.24,
       "margin": 45.7,
-      "daysListed": 15,
+      "daysListed": 16,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "Panini 2024 Prizm Monopoly Caitlin Clark #65 Red Prizm RC PSA 10",
-      "url": "https://www.ebay.com/itm/318768092928?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item4a380f1700:g:K1EAAeSwgW9qinPs",
+      "title": "2024 PANINI PRIZM DRAFT PICKS NEW RECRUITS ICE #14 CAITLIN CLARK  ROOKIE PSA 10",
+      "url": "https://www.ebay.com/itm/257698531702?_skw=2024+Panini+Prizm+Caitlin+Clark+Rookie+PSA+10&hash=item3c00078976:g:To0AAeSwNXNqi5Ma",
       "buy": 175.0,
       "resale": 275.0,
       "profit": 53.7,
@@ -1176,18 +1220,18 @@
       "resale": 299.0,
       "profit": 49.44,
       "margin": 24.7,
-      "daysListed": 0,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "Cooper Flagg PSA 10 GEM MINT Rookie RC 2025 Topps Chrome Serenity Insert #SY-11",
-      "url": "https://www.ebay.com/itm/128038132178?_skw=2025-26+Topps+Chrome+Cooper+Flagg+Rookie+PSA+10&hash=item1dcfaad9d2:g:ZD4AAeSwVppqiG5x",
-      "buy": 200.0,
-      "resale": 299.0,
-      "profit": 49.44,
-      "margin": 24.7,
-      "daysListed": 1,
+      "title": "2020-21 Panini Flux Anthony Edwards #202 Pulsar Prizm Rookie PSA 10",
+      "url": "https://www.ebay.com/itm/398316570988?_skw=2020-21+Panini+Prizm+Anthony+Edwards+Rookie+PSA+10&hash=item5cbd84896c:g:7GQAAeSwgwRqiz2h",
+      "buy": 60.0,
+      "resale": 130.0,
+      "profit": 46.42,
+      "margin": 77.4,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -1198,7 +1242,7 @@
       "resale": 232.79,
       "profit": 43.48,
       "margin": 28.7,
-      "daysListed": 5,
+      "daysListed": 6,
       "watchCount": null,
       "flagged": false
     },
@@ -1209,7 +1253,18 @@
       "resale": 210.0,
       "profit": 42.85,
       "margin": 32.3,
-      "daysListed": 4,
+      "daysListed": 5,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2023-24 Upper Deck Young Guns Adam Fantilli PSA 10 #711 Rookie RC",
+      "url": "https://www.ebay.com/itm/206510592083?_skw=2023-24+Upper+Deck+Young+Guns+Adam+Fantilli+Rookie+PSA+10&hash=item3014fd9053:g:HWEAAeSwWkZqipW1",
+      "buy": 125.0,
+      "resale": 200.0,
+      "profit": 41.9,
+      "margin": 33.5,
+      "daysListed": 1,
       "watchCount": null,
       "flagged": false
     },
@@ -1220,7 +1275,7 @@
       "resale": 200.0,
       "profit": 41.21,
       "margin": 32.8,
-      "daysListed": 138,
+      "daysListed": 139,
       "watchCount": null,
       "flagged": false
     },
@@ -1231,29 +1286,29 @@
       "resale": 200.0,
       "profit": 37.91,
       "margin": 29.4,
-      "daysListed": 43,
+      "daysListed": 44,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2023-24 Upper Deck Young Guns Adam Fantilli PSA 10 #711 Rookie RC",
-      "url": "https://www.ebay.com/itm/206510592083?_skw=2023-24+Upper+Deck+Young+Guns+Adam+Fantilli+Rookie+PSA+10&hash=item3014fd9053:g:HWEAAeSwWkZqipW1",
-      "buy": 130.0,
-      "resale": 200.0,
-      "profit": 36.9,
-      "margin": 28.4,
+      "title": "Panini 2020 Mosaic Justin Herbert NFL Debut Green Mosaic Prizm #263 PSA 10",
+      "url": "https://www.ebay.com/itm/398316717278?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item5cbd86c4de:g:fPEAAeSwUkpqimXh",
+      "buy": 59.99,
+      "resale": 115.0,
+      "profit": 33.47,
+      "margin": 55.8,
       "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
     {
-      "title": "2020-21 Panini Select ANTHONY EDWARDS #61 Rookie RC Blue Prizm PSA 10 Minnesota",
-      "url": "https://www.ebay.com/itm/318760176487?_skw=2020-21+Panini+Prizm+Anthony+Edwards+Rookie+PSA+10&hash=item4a37964b67:g:EtMAAeSwX4xqh1Mz",
-      "buy": 75.0,
-      "resale": 130.0,
-      "profit": 31.42,
-      "margin": 41.9,
-      "daysListed": 2,
+      "title": "JUSTIN HERBERT 2020 Panini BLUE PRIZM Draft Picks #102 ROOKIE PSA 10 GEM MINT",
+      "url": "https://www.ebay.com/itm/377442592695?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item57e154e7b7:g:opcAAeSw-8lqi3Fp",
+      "buy": 61.48,
+      "resale": 115.0,
+      "profit": 31.98,
+      "margin": 52.0,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     },
@@ -1264,18 +1319,7 @@
       "resale": 167.48,
       "profit": 31.24,
       "margin": 29.0,
-      "daysListed": 151,
-      "watchCount": null,
-      "flagged": false
-    },
-    {
-      "title": "2020 Panini Chronicles Draft Picks Justin Herbert Spectra Blue Prizm PSA 10 \ud83d\udc8e",
-      "url": "https://www.ebay.com/itm/137647338973?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item200c6bb5dd:g:gZ4AAeSwu3ZqiGUj",
-      "buy": 65.0,
-      "resale": 115.0,
-      "profit": 28.46,
-      "margin": 43.8,
-      "daysListed": 1,
+      "daysListed": 152,
       "watchCount": null,
       "flagged": false
     },
@@ -1286,7 +1330,7 @@
       "resale": 113.5,
       "profit": 27.16,
       "margin": 41.8,
-      "daysListed": 4,
+      "daysListed": 5,
       "watchCount": null,
       "flagged": false
     },
@@ -1297,7 +1341,29 @@
       "resale": 127.75,
       "profit": 24.48,
       "margin": 30.6,
-      "daysListed": 1,
+      "daysListed": 2,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "2020 Panini Mosaic NFL #263 Justin Herbert Debut Reactive Green Prizm PSA 10",
+      "url": "https://www.ebay.com/itm/128041873485?_skw=2020+Prizm+Justin+Herbert+Rookie+PSA+10&hash=item1dcfe3f04d:g:lLEAAeSwPXdqjCe8",
+      "buy": 69.99,
+      "resale": 115.0,
+      "profit": 23.47,
+      "margin": 33.5,
+      "daysListed": 0,
+      "watchCount": null,
+      "flagged": false
+    },
+    {
+      "title": "Panini 2024 Prizm Fireworks Drake Maye RC #22 Green Prizm PSA 10 Patriots",
+      "url": "https://www.ebay.com/itm/398316605193?_skw=2024+Panini+Prizm+Drake+Maye+Rookie+PSA+10&hash=item5cbd850f09:g:ys8AAeSwEU1qi0UX",
+      "buy": 103.03,
+      "resale": 150.72,
+      "profit": 21.29,
+      "margin": 20.7,
+      "daysListed": 0,
       "watchCount": null,
       "flagged": false
     }
